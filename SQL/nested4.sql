@@ -1,0 +1,1 @@
+SELECT * FROM TRACK WHERE GenreId in (SELECT GenreId FROM Genre WHERE Name = "Comedy");

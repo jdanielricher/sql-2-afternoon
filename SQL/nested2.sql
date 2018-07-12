@@ -1,0 +1,1 @@
+SELECT * FROM Playlist Tracks WHERE PlaylistID IN (SELECT PlaylistID FROM PLaylist WHERE Name = "Music");

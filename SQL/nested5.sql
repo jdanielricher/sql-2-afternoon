@@ -1,0 +1,1 @@
+SELECT * FROM Track WHERE AlbumId IN (SELECT AlbumId FROM Album WHERE Title = "Fireball");
