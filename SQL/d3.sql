@@ -1,0 +1,1 @@
+SELECT DISTINCT Company FROM Customer;

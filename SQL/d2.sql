@@ -1,0 +1,1 @@
+SELECT DISTINCT BillingPostalCode FROM Invoice;
